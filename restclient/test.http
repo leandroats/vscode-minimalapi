@@ -1,0 +1,15 @@
+### Variables 
+@apiurl = https://localhost:5001/api
+
+
+### GET hello
+GET {{apiurl}}/hello HTTP/1.1
+
+### GET characters
+GET {{apiurl}}/characters HTTP/1.1
+
+### GET character
+GET {{apiurl}}/characters/1 HTTP/1.1
+
+### DELETE characters
+DELETE {{apiurl}}/characters/5 HTTP/1.1
